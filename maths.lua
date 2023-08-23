@@ -44,6 +44,9 @@ print("Random no with seed (change with each run):", math.random())
 math.randomseed(5)
 print("Random no with seed (do not change):", math.random())
 
+-- format
+print(string.format("Pi value is : %0.10f", math.pi))
+
 
 
 
